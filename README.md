@@ -1,5 +1,14 @@
 # RAGEMP_menu
-This is a highly customizable interact menu script that does not require any CEF magic. All of the components of this menu come from `mp.game.graphics`. There is an `example.js` included in the repository files that set up a menu manager along with two menus that you can switch between.
+## Overview
+This is a highly customizable and responsive interact menu script that does not require any CEF magic. All of the components of this menu come from `mp.game.graphics`. There is an `example.js` included in the repository files that set up a menu manager along with two menus that you can switch between.
+
+## Installation
+Place the `interact` folder inside your `client_packages` folder.
+
+Paste the below code into your `client_packages/index.js` file.
+```javascript
+require('./interact/example');
+```
 
 ## API Usage
 Getting required classes
