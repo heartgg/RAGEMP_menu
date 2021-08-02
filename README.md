@@ -10,6 +10,9 @@ Paste the below code into your `client_packages/index.js` file.
 require('./interact/example');
 ```
 
+## Controls
+These can be easily customized through RAGE, but if you are trying the example, hold the `B` key while using your mouse to navigate and pressing `left mouse button` to confirm selection.
+
 ## API Usage
 Getting required classes
 ```javascript
