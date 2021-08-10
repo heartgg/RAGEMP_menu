@@ -77,3 +77,7 @@ menuManager.display(toggle);
 // Running this executes the callback associated with the selected item.
 menuManager.select();
 ```
+```javascript
+// This must be placed in the clientside render event
+menuManager.render();
+```
